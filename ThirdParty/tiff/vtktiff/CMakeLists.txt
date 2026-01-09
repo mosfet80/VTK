@@ -25,11 +25,11 @@
 # OF THIS SOFTWARE.
 
 if (FALSE) # XXX(kitware): VTK handles CMake versions.
-cmake_minimum_required(VERSION 3.9.0)
+cmake_minimum_required(VERSION 3.10.0)
 endif ()
 
-# Default policy is from 3.9.0
-cmake_policy(VERSION 3.9.0)
+# Default policy is from 3.10.0
+cmake_policy(VERSION 3.10.0)
 
 # Find CMake modules in cmake/
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
